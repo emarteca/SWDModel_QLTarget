@@ -8,5 +8,19 @@
     <artifactId>SWDModel</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+    	<maven.compiler.source>1.7</maven.compiler.source>
+    	<maven.compiler.target>1.7</maven.compiler.target>
+    </properties>
+
+     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.jfree/jfreechart -->
+        <dependency>
+            <groupId>org.jfree</groupId>
+            <artifactId>jfreechart</artifactId>
+            <version>1.5.0</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
