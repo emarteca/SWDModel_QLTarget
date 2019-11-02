@@ -1,0 +1,18 @@
+This file has the parameters for the simulator to run
+
+initial population: 10
+stage: females1
+runtime: 365			: the number of days to run the simulation
+injection date: 0		: the date to add the starting population
+temp file: tempToronto2012.txt
+
+fruit harvest time lag: 50
+fruit gt multiplier: 4		: higher value means earlier peak in fruit
+
+diapause critical temp: 18
+diapause daylight hours: 10
+
+dt: 0.05			: integration step
+
+If any of the parameters above are not present, defaults are used (see FriendlyRunner.java for details)
+
